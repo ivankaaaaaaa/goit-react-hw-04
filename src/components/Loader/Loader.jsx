@@ -2,7 +2,15 @@ import { Circles } from "react-loader-spinner";
 
 const Loader = () => (
   <div className="loader-container">
-    <Circles type="TailSpin" color="#ff0000" height={100} width={100} />
+    <ColorRing
+      visible={true}
+      height="80"
+      width="80"
+      ariaLabel="color-ring-loading"
+      wrapperStyle={{}}
+      wrapperClass="color-ring-wrapper"
+      colors={["#e15b64", "#f47e60", "#f8b26a", "#abbd81", "#849b87"]}
+    />
     <p>Loading data, please wait...</p>
   </div>
 );
