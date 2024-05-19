@@ -1,4 +1,4 @@
-import { Circles } from "react-loader-spinner";
+import { ColorRing } from "react-loader-spinner";
 
 const Loader = () => (
   <div className="loader-container">
